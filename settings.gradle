@@ -1,4 +1,0 @@
-rootProject.name = "candlepin"
-
-include 'client'
-include 'spec-tests'
