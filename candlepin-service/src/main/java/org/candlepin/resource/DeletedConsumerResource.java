@@ -24,7 +24,7 @@ import org.candlepin.model.DeletedConsumerCurator;
 import org.candlepin.model.DeletedConsumerCurator.DeletedConsumerQueryArguments;
 import org.candlepin.paging.Page;
 import org.candlepin.paging.PageRequest;
-import org.candlepin.resource.server.v1.DeletedConsumerApi;
+import org.candlepin.api.v1.DeletedConsumerApi;
 
 import com.google.inject.persist.Transactional;
 

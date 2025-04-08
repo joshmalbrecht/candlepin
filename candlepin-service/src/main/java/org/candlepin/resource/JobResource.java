@@ -37,7 +37,7 @@ import org.candlepin.model.Owner;
 import org.candlepin.model.OwnerCurator;
 import org.candlepin.paging.Page;
 import org.candlepin.paging.PageRequest;
-import org.candlepin.resource.server.v1.JobsApi;
+import org.candlepin.api.v1.JobsApi;
 import org.candlepin.resource.util.JobStateMapper;
 import org.candlepin.resource.util.JobStateMapper.ExternalJobState;
 import org.candlepin.util.Util;

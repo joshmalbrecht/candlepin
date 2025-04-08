@@ -21,7 +21,7 @@ import org.candlepin.exceptions.NotFoundException;
 import org.candlepin.model.DistributorVersion;
 import org.candlepin.model.DistributorVersionCapability;
 import org.candlepin.model.DistributorVersionCurator;
-import org.candlepin.resource.server.v1.DistributorVersionsApi;
+import org.candlepin.api.v1.DistributorVersionsApi;
 import org.candlepin.resource.validation.DTOValidator;
 
 import com.google.inject.persist.Transactional;

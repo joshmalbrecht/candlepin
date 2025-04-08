@@ -17,7 +17,7 @@ package org.candlepin.resource;
 import org.candlepin.audit.EventSink;
 import org.candlepin.auth.SecurityHole;
 import org.candlepin.dto.api.server.v1.QueueStatus;
-import org.candlepin.resource.server.v1.AdminApi;
+import org.candlepin.api.v1.AdminApi;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

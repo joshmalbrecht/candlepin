@@ -29,7 +29,7 @@ import org.candlepin.model.Owner;
 import org.candlepin.model.OwnerCurator;
 import org.candlepin.model.QueryBuilder.Inclusion;
 import org.candlepin.paging.PagingUtilFactory;
-import org.candlepin.resource.server.v1.OwnerContentApi;
+import org.candlepin.api.v1.OwnerContentApi;
 import org.candlepin.resource.util.InfoAdapter;
 import org.candlepin.resource.validation.DTOValidator;
 import org.candlepin.service.UniqueIdGenerator;

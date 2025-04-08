@@ -28,7 +28,7 @@ import org.candlepin.guice.CandlepinCapabilities;
 import org.candlepin.model.Rules.RulesSourceEnum;
 import org.candlepin.model.RulesCurator;
 import org.candlepin.policy.js.JsRunnerProvider;
-import org.candlepin.resource.server.v1.StatusApi;
+import org.candlepin.api.v1.StatusApi;
 import org.candlepin.util.Util;
 import org.candlepin.version.VersionUtil;
 

@@ -34,7 +34,7 @@ import org.candlepin.model.ProductCurator;
 import org.candlepin.model.ProductQueryBuilder;
 import org.candlepin.model.QueryBuilder.Inclusion;
 import org.candlepin.paging.PagingUtilFactory;
-import org.candlepin.resource.server.v1.ProductsApi;
+import org.candlepin.api.v1.ProductsApi;
 
 import com.google.inject.persist.Transactional;
 

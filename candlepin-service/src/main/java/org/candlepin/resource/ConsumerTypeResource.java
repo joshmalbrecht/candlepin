@@ -20,7 +20,7 @@ import org.candlepin.exceptions.BadRequestException;
 import org.candlepin.exceptions.NotFoundException;
 import org.candlepin.model.ConsumerType;
 import org.candlepin.model.ConsumerTypeCurator;
-import org.candlepin.resource.server.v1.ConsumerTypeApi;
+import org.candlepin.api.v1.ConsumerTypeApi;
 
 import com.google.inject.persist.Transactional;
 

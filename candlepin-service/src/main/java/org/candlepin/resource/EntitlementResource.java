@@ -44,7 +44,7 @@ import org.candlepin.policy.ValidationResult;
 import org.candlepin.policy.js.entitlement.Enforcer;
 import org.candlepin.policy.js.entitlement.Enforcer.CallerType;
 import org.candlepin.policy.js.entitlement.EntitlementRulesTranslator;
-import org.candlepin.resource.server.v1.EntitlementsApi;
+import org.candlepin.api.v1.EntitlementsApi;
 import org.candlepin.resource.util.KeyValueStringParser;
 
 import com.google.inject.persist.Transactional;

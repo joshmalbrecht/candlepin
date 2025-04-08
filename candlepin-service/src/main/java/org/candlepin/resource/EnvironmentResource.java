@@ -51,7 +51,7 @@ import org.candlepin.model.EnvironmentCurator;
 import org.candlepin.model.IdentityCertificate;
 import org.candlepin.model.IdentityCertificateCurator;
 import org.candlepin.model.SCACertificate;
-import org.candlepin.resource.server.v1.EnvironmentApi;
+import org.candlepin.api.v1.EnvironmentApi;
 import org.candlepin.resource.util.EntitlementEnvironmentFilter;
 import org.candlepin.resource.util.EnvironmentUpdates;
 import org.candlepin.resource.validation.DTOValidator;

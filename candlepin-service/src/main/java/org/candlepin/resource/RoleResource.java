@@ -22,7 +22,7 @@ import org.candlepin.exceptions.ConflictException;
 import org.candlepin.exceptions.NotFoundException;
 import org.candlepin.model.OwnerCurator;
 import org.candlepin.model.PermissionBlueprintCurator;
-import org.candlepin.resource.server.v1.RolesApi;
+import org.candlepin.api.v1.RolesApi;
 import org.candlepin.resource.util.InfoAdapter;
 import org.candlepin.resource.validation.DTOValidator;
 import org.candlepin.service.UserServiceAdapter;

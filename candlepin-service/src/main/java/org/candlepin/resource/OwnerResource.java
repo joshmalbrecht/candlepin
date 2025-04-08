@@ -108,7 +108,7 @@ import org.candlepin.paging.Page;
 import org.candlepin.paging.PageRequest;
 import org.candlepin.paging.PagingUtilFactory;
 import org.candlepin.pki.certs.UeberCertificateGenerator;
-import org.candlepin.resource.server.v1.OwnerApi;
+import org.candlepin.api.v1.OwnerApi;
 import org.candlepin.resource.util.AttachedFile;
 import org.candlepin.resource.util.CalculatedAttributesUtil;
 import org.candlepin.resource.util.ConsumerTypeValidator;

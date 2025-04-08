@@ -36,7 +36,7 @@ import org.candlepin.model.GuestId;
 import org.candlepin.model.GuestIdCurator;
 import org.candlepin.model.VirtConsumerMap;
 import org.candlepin.paging.PagingUtilFactory;
-import org.candlepin.resource.server.v1.GuestIdsApi;
+import org.candlepin.api.v1.GuestIdsApi;
 import org.candlepin.resource.util.GuestMigration;
 
 import com.google.inject.persist.Transactional;

@@ -45,7 +45,7 @@ import org.candlepin.model.ProductQueryBuilder;
 import org.candlepin.model.QueryBuilder.Inclusion;
 import org.candlepin.paging.PagingUtilFactory;
 import org.candlepin.pki.certs.ProductCertificateGenerator;
-import org.candlepin.resource.server.v1.OwnerProductApi;
+import org.candlepin.api.v1.OwnerProductApi;
 import org.candlepin.resource.util.InfoAdapter;
 import org.candlepin.resource.validation.DTOValidator;
 import org.candlepin.service.model.BrandingInfo;

@@ -25,7 +25,7 @@ import org.candlepin.exceptions.NotFoundException;
 import org.candlepin.model.Owner;
 import org.candlepin.model.OwnerCurator;
 import org.candlepin.model.User;
-import org.candlepin.resource.server.v1.UsersApi;
+import org.candlepin.api.v1.UsersApi;
 import org.candlepin.resource.util.InfoAdapter;
 import org.candlepin.service.UserServiceAdapter;
 import org.candlepin.service.model.OwnerInfo;

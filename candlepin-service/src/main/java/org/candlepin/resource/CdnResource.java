@@ -25,7 +25,7 @@ import org.candlepin.model.Cdn;
 import org.candlepin.model.CdnCertificate;
 import org.candlepin.model.CdnCurator;
 import org.candlepin.model.CertificateSerial;
-import org.candlepin.resource.server.v1.CdnApi;
+import org.candlepin.api.v1.CdnApi;
 import org.candlepin.util.Util;
 
 import com.google.inject.persist.Transactional;

@@ -30,7 +30,7 @@ import org.candlepin.model.Consumer;
 import org.candlepin.model.ConsumerCurator;
 import org.candlepin.model.Owner;
 import org.candlepin.model.Pool;
-import org.candlepin.resource.server.v1.SubscriptionApi;
+import org.candlepin.api.v1.SubscriptionApi;
 import org.candlepin.service.SubscriptionServiceAdapter;
 
 import com.google.inject.persist.Transactional;

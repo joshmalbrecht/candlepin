@@ -33,7 +33,7 @@ import org.candlepin.model.activationkeys.ActivationKeyContentOverride;
 import org.candlepin.model.activationkeys.ActivationKeyContentOverrideCurator;
 import org.candlepin.model.activationkeys.ActivationKeyCurator;
 import org.candlepin.policy.activationkey.ActivationKeyRules;
-import org.candlepin.resource.server.v1.ActivationKeyApi;
+import org.candlepin.api.v1.ActivationKeyApi;
 import org.candlepin.resource.validation.DTOValidator;
 import org.candlepin.util.ContentOverrideValidator;
 import org.candlepin.util.ServiceLevelValidator;

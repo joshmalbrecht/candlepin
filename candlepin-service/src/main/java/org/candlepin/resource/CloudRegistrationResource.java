@@ -39,7 +39,7 @@ import org.candlepin.model.AsyncJobStatus;
 import org.candlepin.model.AsyncJobStatusCurator;
 import org.candlepin.model.AsyncJobStatusCurator.AsyncJobStatusQueryArguments;
 import org.candlepin.model.PoolCurator;
-import org.candlepin.resource.server.v1.CloudRegistrationApi;
+import org.candlepin.api.v1.CloudRegistrationApi;
 import org.candlepin.service.CloudRegistrationAdapter;
 import org.candlepin.service.exception.cloudregistration.CloudRegistrationNotSupportedForOfferingException;
 import org.candlepin.service.model.CloudAuthenticationResult;

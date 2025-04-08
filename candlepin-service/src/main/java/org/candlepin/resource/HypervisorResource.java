@@ -41,7 +41,7 @@ import org.candlepin.model.ConsumerTypeCurator;
 import org.candlepin.model.GuestId;
 import org.candlepin.model.Owner;
 import org.candlepin.model.OwnerCurator;
-import org.candlepin.resource.server.v1.HypervisorsApi;
+import org.candlepin.api.v1.HypervisorsApi;
 import org.candlepin.resource.util.GuestMigration;
 
 import com.fasterxml.jackson.core.JsonProcessingException;

@@ -135,7 +135,7 @@ import org.candlepin.policy.js.compliance.hash.ComplianceFacts;
 import org.candlepin.policy.js.consumer.ConsumerRules;
 import org.candlepin.resource.dto.AutobindData;
 import org.candlepin.resource.dto.ContentAccessListing;
-import org.candlepin.resource.server.v1.ConsumerApi;
+import org.candlepin.api.v1.ConsumerApi;
 import org.candlepin.resource.util.CalculatedAttributesUtil;
 import org.candlepin.resource.util.ConsumerBindUtil;
 import org.candlepin.resource.util.ConsumerCloudDataBuilder;

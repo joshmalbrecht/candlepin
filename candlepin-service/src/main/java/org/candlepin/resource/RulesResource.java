@@ -19,7 +19,7 @@ import org.candlepin.exceptions.ServiceUnavailableException;
 import org.candlepin.model.CuratorException;
 import org.candlepin.model.RulesCurator;
 import org.candlepin.policy.js.JsRunnerProvider;
-import org.candlepin.resource.server.v1.RulesApi;
+import org.candlepin.api.v1.RulesApi;
 
 import com.google.inject.persist.Transactional;
 

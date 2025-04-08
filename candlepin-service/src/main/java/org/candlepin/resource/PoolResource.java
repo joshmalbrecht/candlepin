@@ -42,7 +42,7 @@ import org.candlepin.model.PoolQualifier;
 import org.candlepin.model.SubscriptionsCertificate;
 import org.candlepin.paging.Page;
 import org.candlepin.paging.PageRequest;
-import org.candlepin.resource.server.v1.PoolsApi;
+import org.candlepin.api.v1.PoolsApi;
 import org.candlepin.resource.util.CalculatedAttributesUtil;
 import org.candlepin.util.Util;
 

@@ -32,6 +32,8 @@
     </dependencies>
   </dependencyManagement>
 
+  <!-- TODO: Remove versions declarations -->
+
   <dependencies>
     <dependency>
         <groupId>org.candlepin</groupId>
@@ -487,22 +489,30 @@
     </pluginManagement>
     <plugins>
 
-      <!-- TODO: This is not working -->
-
       <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.7.0</version>
-          <configuration>
-              <annotationProcessorPaths>
-                  <path>
-                      <groupId>org.hibernate</groupId>
-                      <artifactId>hibernate-jpamodelgen</artifactId>
-                      <version>5.6.15.Final</version>
-                  </path>
-              </annotationProcessorPaths>
-          </configuration>
+          <groupId>org.bsc.maven</groupId>
+          <artifactId>maven-processor-plugin</artifactId>
+          <version>3.3.3</version>
+          <executions>
+              <execution>
+                  <id>process</id>
+                  <goals>
+                      <goal>process</goal>
+                  </goals>
+                  <phase>generate-sources</phase>
+                  <configuration>
+                      <includes>
+                        <include>**/model/*.java</include>
+                      </includes>
+                      <processors>
+                          <processor>org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor</processor>
+                      </processors>
+                      <outputDirectory>${project.build.directory}/generated-sources</outputDirectory>
+                  </configuration>
+              </execution>
+          </executions>
       </plugin>
+
     </plugins>
   </build>
 </project>
