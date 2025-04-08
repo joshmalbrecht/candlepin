@@ -49,7 +49,7 @@ import org.candlepin.model.OwnerInfoCurator;
 import org.candlepin.model.PoolCurator;
 import org.candlepin.model.ProductCurator;
 import org.candlepin.model.UeberCertificateCurator;
-import org.candlepin.model.activationkeys.ActivationKeyCurator;
+import org.candlepin.model.ActivationKeyCurator;
 import org.candlepin.paging.PagingUtilFactory;
 import org.candlepin.pki.certs.UeberCertificateGenerator;
 import org.candlepin.resource.util.CalculatedAttributesUtil;

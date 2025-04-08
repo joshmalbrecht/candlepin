@@ -17,8 +17,8 @@ package org.candlepin.policy.activationkey;
 import org.candlepin.config.ConversionException;
 import org.candlepin.model.ConsumerType;
 import org.candlepin.model.Pool;
-import org.candlepin.model.activationkeys.ActivationKey;
-import org.candlepin.model.activationkeys.ActivationKeyPool;
+import org.candlepin.model.ActivationKey;
+import org.candlepin.model.ActivationKeyPool;
 import org.candlepin.policy.RulesValidationError;
 import org.candlepin.policy.ValidationResult;
 

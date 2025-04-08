@@ -25,8 +25,8 @@ import org.candlepin.dto.api.server.v1.ReleaseVerDTO;
 import org.candlepin.model.ContentOverride;
 import org.candlepin.model.Owner;
 import org.candlepin.model.Release;
-import org.candlepin.model.activationkeys.ActivationKey;
-import org.candlepin.model.activationkeys.ActivationKeyPool;
+import org.candlepin.model.ActivationKey;
+import org.candlepin.model.ActivationKeyPool;
 import org.candlepin.util.Util;
 
 import java.util.HashSet;

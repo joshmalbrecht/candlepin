@@ -37,7 +37,7 @@ import org.candlepin.model.OwnerCurator;
 import org.candlepin.model.Pool;
 import org.candlepin.model.PoolCurator;
 import org.candlepin.model.Product;
-import org.candlepin.model.activationkeys.ActivationKey;
+import org.candlepin.model.ActivationKey;
 import org.candlepin.resource.dto.AutobindData;
 import org.candlepin.test.TestUtil;
 import org.candlepin.util.ServiceLevelValidator;

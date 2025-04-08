@@ -16,8 +16,8 @@ package org.candlepin.dto.rules.v1;
 
 import org.candlepin.dto.ModelTranslator;
 import org.candlepin.dto.ObjectTranslator;
-import org.candlepin.model.activationkeys.ActivationKey;
-import org.candlepin.model.activationkeys.ActivationKeyPool;
+import org.candlepin.model.ActivationKey;
+import org.candlepin.model.ActivationKeyPool;
 
 import java.util.HashSet;
 import java.util.Set;

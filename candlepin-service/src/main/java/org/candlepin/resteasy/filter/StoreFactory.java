@@ -32,8 +32,8 @@ import org.candlepin.model.Persisted;
 import org.candlepin.model.Pool;
 import org.candlepin.model.PoolCurator;
 import org.candlepin.model.User;
-import org.candlepin.model.activationkeys.ActivationKey;
-import org.candlepin.model.activationkeys.ActivationKeyCurator;
+import org.candlepin.model.ActivationKey;
+import org.candlepin.model.ActivationKeyCurator;
 
 import org.xnap.commons.i18n.I18n;
 

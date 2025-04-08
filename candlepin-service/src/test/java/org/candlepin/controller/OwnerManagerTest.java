@@ -28,7 +28,7 @@ import org.candlepin.model.OwnerCurator;
 import org.candlepin.model.PermissionBlueprintCurator;
 import org.candlepin.model.ProductCurator;
 import org.candlepin.model.UeberCertificateCurator;
-import org.candlepin.model.activationkeys.ActivationKeyCurator;
+import org.candlepin.model.ActivationKeyCurator;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;

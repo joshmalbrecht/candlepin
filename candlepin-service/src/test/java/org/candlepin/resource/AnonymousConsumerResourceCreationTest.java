@@ -70,7 +70,7 @@ import org.candlepin.model.PermissionBlueprint;
 import org.candlepin.model.PoolCurator;
 import org.candlepin.model.Role;
 import org.candlepin.model.User;
-import org.candlepin.model.activationkeys.ActivationKeyCurator;
+import org.candlepin.model.ActivationKeyCurator;
 import org.candlepin.pki.certs.AnonymousCertificateGenerator;
 import org.candlepin.pki.certs.IdentityCertificateGenerator;
 import org.candlepin.pki.certs.SCACertificateGenerator;

@@ -46,7 +46,7 @@ import org.candlepin.model.Pool;
 import org.candlepin.model.PoolQualifier;
 import org.candlepin.model.Product;
 import org.candlepin.model.SourceSubscription;
-import org.candlepin.model.activationkeys.ActivationKey;
+import org.candlepin.model.ActivationKey;
 import org.candlepin.paging.Page;
 import org.candlepin.policy.EntitlementRefusedException;
 import org.candlepin.policy.js.entitlement.Enforcer;

@@ -20,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.candlepin.model.Owner;
 import org.candlepin.model.Pool;
 import org.candlepin.model.Product;
-import org.candlepin.model.activationkeys.ActivationKey;
+import org.candlepin.model.ActivationKey;
 import org.candlepin.policy.ValidationResult;
 import org.candlepin.test.TestUtil;
 

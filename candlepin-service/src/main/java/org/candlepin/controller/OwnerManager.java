@@ -31,8 +31,8 @@ import org.candlepin.model.Pool;
 import org.candlepin.model.Product;
 import org.candlepin.model.ProductCurator;
 import org.candlepin.model.UeberCertificateCurator;
-import org.candlepin.model.activationkeys.ActivationKey;
-import org.candlepin.model.activationkeys.ActivationKeyCurator;
+import org.candlepin.model.ActivationKey;
+import org.candlepin.model.ActivationKeyCurator;
 
 import com.google.inject.persist.Transactional;
 

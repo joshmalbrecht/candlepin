@@ -27,7 +27,7 @@ import javax.inject.Singleton;
  * This class is not servlet-scoped because Pinsetter also uses it.
  */
 @Singleton
-public class PrincipalProvider implements Provider<Principal> {
+public class PrincipalProvider implements com.google.inject.Provider<Principal> {
     @Override
     public Principal get() {
         return ResteasyContext.getContextData(Principal.class);

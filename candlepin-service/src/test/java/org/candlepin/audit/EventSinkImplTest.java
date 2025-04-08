@@ -43,7 +43,7 @@ import org.candlepin.model.Owner;
 import org.candlepin.model.OwnerCurator;
 import org.candlepin.model.Pool;
 import org.candlepin.model.Rules;
-import org.candlepin.model.activationkeys.ActivationKey;
+import org.candlepin.model.ActivationKey;
 import org.candlepin.test.TestUtil;
 import org.candlepin.util.ObjectMapperFactory;
 

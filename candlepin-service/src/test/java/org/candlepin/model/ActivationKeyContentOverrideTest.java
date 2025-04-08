@@ -19,8 +19,8 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertSame;
 
-import org.candlepin.model.activationkeys.ActivationKey;
-import org.candlepin.model.activationkeys.ActivationKeyContentOverride;
+import org.candlepin.model.ActivationKey;
+import org.candlepin.model.ActivationKeyContentOverride;
 
 import org.junit.jupiter.api.Test;
 

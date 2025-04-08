@@ -16,7 +16,7 @@ package org.candlepin.model;
 
 import org.candlepin.controller.ContentAccessManager;
 import org.candlepin.controller.ContentAccessMode;
-import org.candlepin.model.activationkeys.ActivationKey;
+import org.candlepin.model.ActivationKey;
 import org.candlepin.service.model.OwnerInfo;
 import org.candlepin.util.Util;
 

@@ -15,7 +15,7 @@
 package org.candlepin.model;
 
 import org.candlepin.model.Pool.PoolType;
-import org.candlepin.model.activationkeys.ActivationKey;
+import org.candlepin.model.ActivationKey;
 import org.candlepin.paging.Page;
 import org.candlepin.util.Util;
 

@@ -17,7 +17,7 @@ package org.candlepin.model;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.candlepin.model.activationkeys.ActivationKey;
+import org.candlepin.model.ActivationKey;
 import org.candlepin.test.TestUtil;
 
 import org.junit.jupiter.api.Test;

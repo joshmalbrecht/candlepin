@@ -17,8 +17,8 @@ package org.candlepin.auth;
 import org.candlepin.exceptions.BadRequestException;
 import org.candlepin.exceptions.NotAuthorizedException;
 import org.candlepin.model.OwnerCurator;
-import org.candlepin.model.activationkeys.ActivationKey;
-import org.candlepin.model.activationkeys.ActivationKeyCurator;
+import org.candlepin.model.ActivationKey;
+import org.candlepin.model.ActivationKeyCurator;
 
 import org.jboss.resteasy.spi.HttpRequest;
 import org.slf4j.Logger;

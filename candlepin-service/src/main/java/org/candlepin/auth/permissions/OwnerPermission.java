@@ -25,8 +25,8 @@ import org.candlepin.model.Owner;
 import org.candlepin.model.Owner_;
 import org.candlepin.model.Pool;
 import org.candlepin.model.Pool_;
-import org.candlepin.model.activationkeys.ActivationKey;
-import org.candlepin.model.activationkeys.ActivationKey_;
+import org.candlepin.model.ActivationKey;
+import org.candlepin.model.ActivationKey_;
 
 import java.io.Serializable;
 import java.util.Objects;

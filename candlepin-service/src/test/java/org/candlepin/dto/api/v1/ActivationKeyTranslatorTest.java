@@ -30,9 +30,9 @@ import org.candlepin.model.ContentOverride;
 import org.candlepin.model.Pool;
 import org.candlepin.model.Product;
 import org.candlepin.model.Release;
-import org.candlepin.model.activationkeys.ActivationKey;
-import org.candlepin.model.activationkeys.ActivationKeyContentOverride;
-import org.candlepin.model.activationkeys.ActivationKeyPool;
+import org.candlepin.model.ActivationKey;
+import org.candlepin.model.ActivationKeyContentOverride;
+import org.candlepin.model.ActivationKeyPool;
 
 import org.apache.commons.lang3.builder.EqualsBuilder;
 

@@ -31,7 +31,7 @@ import org.candlepin.model.AsyncJobStatus;
 import org.candlepin.model.ConsumerCurator;
 import org.candlepin.model.Owner;
 import org.candlepin.model.OwnerCurator;
-import org.candlepin.model.activationkeys.ActivationKeyCurator;
+import org.candlepin.model.ActivationKeyCurator;
 import org.candlepin.test.TestUtil;
 
 import org.junit.jupiter.api.Test;

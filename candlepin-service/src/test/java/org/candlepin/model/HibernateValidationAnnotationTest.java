@@ -17,7 +17,7 @@ package org.candlepin.model;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.candlepin.model.activationkeys.ActivationKey;
+import org.candlepin.model.ActivationKey;
 
 import com.google.inject.matcher.AbstractMatcher;
 import com.google.inject.matcher.Matcher;

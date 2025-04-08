@@ -14,7 +14,7 @@
  */
 package org.candlepin.model;
 
-import org.candlepin.model.activationkeys.ActivationKey;
+import org.candlepin.model.ActivationKey;
 
 import java.util.ArrayList;
 import java.util.Collection;

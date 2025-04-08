@@ -27,8 +27,8 @@ import org.candlepin.dto.api.server.v1.ContentOverrideDTO;
 import org.candlepin.exceptions.BadRequestException;
 import org.candlepin.model.ContentOverride;
 import org.candlepin.model.Owner;
-import org.candlepin.model.activationkeys.ActivationKey;
-import org.candlepin.model.activationkeys.ActivationKeyContentOverride;
+import org.candlepin.model.ActivationKey;
+import org.candlepin.model.ActivationKeyContentOverride;
 import org.candlepin.test.DatabaseTestFixture;
 
 import org.jboss.resteasy.core.ResteasyContext;
